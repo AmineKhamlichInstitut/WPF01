@@ -6,11 +6,5 @@
         xmlns:local="clr-namespace:sessio1"
         mc:Ignorable="d"
         Title="Creació Nom" Height="600" Width="650">
-    <StackPanel>
-        <Label Content="Nom"></Label>
-        <TextBox Width="100" Height="30" Text="{Binding Path=Nom, Mode=TwoWay}"></TextBox>
-        <Label Content="Cognom"></Label>
-        <TextBox Width="100" Height="30" Text="{Binding Path=Cognom, Mode=TwoWay}"></TextBox>
-        <TextBox Width="100" Height="30" Text="{Binding Path=Nom_Complet, Mode=TwoWay}"></TextBox>
-    </StackPanel>
+
 </Window>
